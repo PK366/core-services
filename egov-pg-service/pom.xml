@@ -107,6 +107,16 @@
       <url>https://nexus-repo.egovernments.org/nexus/content/repositories/snapshots/</url>
     </repository>
   </repositories>
+  <distributionManagement>  
+        <repository>  
+            <id>repo.egovernments.org</id>  
+            <url>https://nexus-repo.egovernments.org/nexus/content/repositories/releases/</url>  
+        </repository>  
+        <snapshotRepository>  
+            <id>repo.egovernments.org.snapshots</id>  
+            <url>https://nexus-repo.egovernments.org/nexus/content/repositories/snapshots/</url>  
+        </snapshotRepository>  
+  </distributionManagement>    
   <build>
     <plugins>
       <plugin>
